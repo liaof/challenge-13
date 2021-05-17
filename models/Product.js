@@ -29,10 +29,18 @@ Product.init(
     },
     stock: {
       type: DataTypes.INTEGER,
+      allowNull: false,
       defaultValue: 10,
+      validate: {
+        isDecimal: true// make sure is a verified, valid link
+      },
+      
+    },
+    category_id: {
+      type: DataTypes.INTEGER,
       references: {
-        model: 'user',// create a reference to the User model
-        key: 'id'// by matching Post's key to User's id field
+          model: 'category',// create a reference to the User model
+          key: 'id'// by matching Post's key to User's id field
       }
     }
   },
