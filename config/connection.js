@@ -13,3 +13,5 @@ const sequelize = process.env.JAWSDB_URL
     });
 
 module.exports = sequelize;
+
+// .env will be based on variables stated here
