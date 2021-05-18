@@ -33,8 +33,7 @@ Product.init(
       defaultValue: 10,
       validate: {
         isDecimal: true// make sure is a verified, valid link
-      },
-      
+      }   
     },
     category_id: {
       type: DataTypes.INTEGER,
