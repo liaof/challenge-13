@@ -38,8 +38,8 @@ Product.init(
     category_id: {
       type: DataTypes.INTEGER,
       references: {
-          model: 'category',// create a reference to the User model
-          key: 'id'// by matching Post's key to User's id field
+          model: 'category',// create a reference to the category model
+          key: 'id'// by matching prod's key to User's id field
       }
     }
   },

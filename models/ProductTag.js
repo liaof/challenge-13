@@ -16,15 +16,15 @@ ProductTag.init(
     product_id: {
       type: DataTypes.INTEGER,
       references: {
-          model: 'product',// create a reference to the User model
-          key: 'id'// by matching Post's key to User's id field
+          model: 'product',// 
+          key: 'id'// 
       }
     },
     tag_id: {
       type: DataTypes.INTEGER,
       references: {
-          model: 'tag',// create a reference to the User model
-          key: 'id'// by matching Post's key to User's id field
+          model: 'tag',// 
+          key: 'id'// 
       }
     }
   },
