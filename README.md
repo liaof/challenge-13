@@ -43,5 +43,4 @@ put:
 }
 
 ### Special Thanks
-Erik De Luna - Assistant Instructor
-Floyd Jones - Assistant Instructor
+Erik De Luna - Assistant Instructor, Floyd Jones - Assistant Instructor
